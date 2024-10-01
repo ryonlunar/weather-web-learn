@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #222;
+}
+
+.card{
+    width: 90%;
+    height: 90%;
+    max-width: 400px;
+    background: linear-gradient(135deg, #566d90, #72c994);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 20px 35px;
+    text-align: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.search img{
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    background-color: transparent;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.search input{
+    height: 40px;
+    width: 80%;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    background: #fff;
+    color: #222;
+    margin-right: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.search button{
+    border: 0px;
+    border-radius: 100%;
+    outline: 0;
+    background: #ebfffc;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.weather img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 20px 20px;
+    object-fit: contain;
+}
+
+.weather h1{
+    font-size: 100px;
+}
+
+.weather h2{
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 110%;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col img{
+    width: 50px;
+    height: 50px;
+}
+
+.humidity , .wind{
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    display: none;
+}
